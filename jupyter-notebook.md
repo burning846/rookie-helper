@@ -36,7 +36,7 @@ c.NotebookApp.ip = '*'
 
 ### 生成登陆密码
 
-1. 命令行输入 `iPython` ，进入REPL环境
+1. 命令行输入 `ipython` ，进入REPL环境
 2. 执行：`from notebook.auth import passwd;passwd()`
 3. 根据提示输入明文密码
 4. 生成hash后的密码类似如下：

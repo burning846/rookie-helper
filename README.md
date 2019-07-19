@@ -5,3 +5,8 @@
 
 
 [jupyter notebook配置方法](jupyter-notebook.md)
+
+[Anaconda安装](anaconda.md)
+
+[Python多进程加速](multiprocessing.md)
+

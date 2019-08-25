@@ -4,9 +4,11 @@
 
 
 
-[jupyter notebook配置方法](jupyter-notebook.md)
+[jupyter notebook配置方法](jupyter-notebook/jupyter-notebook.md)
 
-[Anaconda安装](anaconda.md)
+[Anaconda安装](anaconda/anaconda.md)
 
-[Python多进程加速](multiprocessing.md)
+[Python多进程加速](multiprocessing/multiprocessing.md)
+
+[常用git指令](git/git.md)
 

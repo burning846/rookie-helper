@@ -15,7 +15,7 @@
 
 ### 在GitHub创建一个新仓库的步骤
 
-1. 在GitHub上开一个仓库，拿到远程仓库链接，如：https://github.com/burning846/rookie-helper.git。（注意不要选择自动创建README.md的选项，不然要涉及merge操作。）
+1. 在GitHub上开一个仓库，拿到远程仓库链接，如： https://github.com/burning846/rookie-helper.git 。（注意不要选择自动创建README.md的选项，不然要涉及merge操作。）
 2. 在你想创建仓库的最顶层文件夹使用 `git init` 命令，建立.git本地仓库
 3. 使用 `git add .` 命令将文件夹下所有文件加入本次记录
 4. 使用 `git commit -m 'init'` 命令将本次修改提交

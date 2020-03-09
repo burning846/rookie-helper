@@ -12,3 +12,5 @@
 
 [常用git指令](git/git.md)
 
+[pytorch小技巧](pytorch/pytorch.md)
+

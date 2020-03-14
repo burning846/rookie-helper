@@ -1,6 +1,6 @@
 # Anaconda
 
-
+### 从零配置anaconda
 
 * Download: Visit the [official website](https://www.anaconda.com/) to DOWNLOAD the bash file.
 * Install: Just run`bash <filename>` , For example `bash Anaconda3-2018.12-Linux-x86_64.sh`

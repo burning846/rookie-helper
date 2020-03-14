@@ -12,6 +12,7 @@ np.full((h, w, 3), [255, 0, 0]).astype(np.uint8)
 - 新建一张和原图一样大的mask
 
 ```python
+import numpy as np
 np.zeros(img.shape[:2])
 ```
 

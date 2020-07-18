@@ -1,5 +1,7 @@
 # Anaconda
 
+
+
 ### 从零配置anaconda
 
 * Download: Visit the [official website](https://www.anaconda.com/) to DOWNLOAD the bash file.
@@ -29,3 +31,38 @@
 * 保存当前环境：`conda env export > environment.yaml`
 * 安装库文件：`conda install <package_name>`
   * 如果需要特定版本的库的话，可以加上版本号，如`conda install opencv-python=4.1.0.25`
+
+
+
+### 使用清华源
+
+```bash
+vim ~/.condarc
+```
+
+添加
+
+```
+channels:
+  - defaults
+show_channel_urls: true
+channel_alias: https://mirrors.tuna.tsinghua.edu.cn/anaconda
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+```
+
+```bash
+conda clean -i # 清除索引
+```
+

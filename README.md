@@ -11,6 +11,8 @@
 - 从零配置anaconda
 - 使用清华源（国内加速）
 
+[docker新手指南](docker/README.md)
+
 [Python多进程加速](multiprocessing/README.md)
 
 [git](git/README.md)

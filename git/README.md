@@ -22,3 +22,9 @@
 5. 使用 `git remote add origin https://github.com/burning846/rookie-helper.git` 将远程仓库链接加入到本地仓库记录的信息中
 6. 使用 `git push -u origin master` 命令将本地仓库同步到远程仓库，其中 `-u origin master` 的作用是将你的本地分支和远程master分支连接。
 7. 刷新一下GitHub就能看到你的新仓库了~
+
+### 给GitHub账户添加公钥
+
+1. 在想进行clone操作的服务器上执行`ssh-keygen -t rsa -C "your@email"`命令生成公钥和私钥，默认私钥存放在`/Users/<your_name>/.ssh/id_rsa`中，公钥存放在`/Users/<your_name>/.ssh/id_rsa.pub`文件中
+2. 查看公钥`cat /Users/<your_name>/.ssh/id_rsa.pub`中的内容，负责下来。
+3. 打开github的Settings设置页，找到**SSH and GPG keys**标签页，点击new SSH key按钮添加公钥，title随便起，key粘贴刚刚复制的公钥内容，点击add SSH key添加即可

@@ -19,6 +19,7 @@
 
 - 常用git指令
 - 新建远程git仓库并推送本地到远程仓库
+- git配置ssh key
 
 [pytorch](pytorch/README.md)
 
